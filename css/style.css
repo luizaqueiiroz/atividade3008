@@ -1,0 +1,38 @@
+.menu, .menu1, .menu2, .menu3, .menu4, .menu5, .menu6{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    background-color: #202020;
+    color: #f0f0f0;
+    font-size: 2em;
+    padding: 10px 30px;
+}
+.menu{
+    justify-content: center;
+    background-color: #202020;
+}
+.menu1{
+    justify-content: space-between;
+    background-color: #b53434;
+}
+.menu2{
+    justify-content: left;
+    background-color: #3436b5;
+}
+.menu3{
+    justify-content: start;
+    background-color: #b5346e;
+}
+.menu4{
+    justify-content: end;
+    background-color: #e2ed03;
+}
+.menu5{
+    justify-content: space-around;
+    background-color: #2ae015;
+}
+.menu6{
+    justify-content: space-evenly;
+    background-color: #26bac2;
+}
